@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main -  prints putchar
+ * main -  prints _putchar, followed by a new line
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -18,5 +18,4 @@ int main(void)
 
 	return (0);
 }
-
 

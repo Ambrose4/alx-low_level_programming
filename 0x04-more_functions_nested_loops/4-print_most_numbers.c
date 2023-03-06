@@ -1,23 +1,19 @@
 #include "main.h"
+
 /**
- * _strpbrk - Entry point
- * @s: input
- * @accept: input
- * Return: Always 0 (Success)
+ * print_most_numbers - print num except 2 and 4
+ *
+ * return: void
  */
-char *_strpbrk(char *s, char *accept)
+
+void print_most_numbers(void)
 {
-		int k;
+	char c;
 
-		while (*s)
-		{
-			for (k = 0; accept[k]; k++)
-			{
-			if (*s == accept[k])
-			return (s);
-			}
-		s++;
-		}
-
-	return ('\0');
+	for (c = '0'; c <= '9'; c++)
+	{
+		if (!(c == '2' || c == '4'))
+			_putchar(c);
+	}
+	_putchar('\n');
 }

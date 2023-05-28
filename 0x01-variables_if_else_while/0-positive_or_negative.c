@@ -5,10 +5,10 @@
 
 /* betty style doc for function main goes there */
 /**
- *Author - Ambrose
  *main - a program that determines whether,
  *a number is +ve , -ve or 0
- *Returns always 0
+ *Return: always 0
+ *Author - Ambrose
  */
 int main(void)
 {
